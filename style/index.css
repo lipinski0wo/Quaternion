@@ -1,0 +1,33 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    padding-top: 32px;
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 95vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 126.66vw;
+    margin: 50px auto;
+    background: white;
+    border: 1px dotted rgba(38, 40, 44, 0.549);
+    perspective: 150px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.header_1 {
+    text-align: center;
+    margin: 5px;
+}
+.click_to_center {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.753);
+    z-index: 10000000000000;
+}
